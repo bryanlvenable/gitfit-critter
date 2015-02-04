@@ -5,6 +5,7 @@
   "scripts": {
     "start": "node server/config.js",
     "test": "node bin/www& ./node_modules/.bin/mocha --bail --reporter nyan test/test.js; pkill -n node;"
+
   },
   "dependencies": {
     "body-parser": "~1.10.2",
