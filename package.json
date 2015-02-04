@@ -3,9 +3,14 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+<<<<<<< HEAD
     "start": "node ./bin/www",
     "test": "node bin/www& ./node_modules/.bin/mocha --bail --reporter nyan test/test.js; pkill -n node;",
     "postinstall": "./node_modules/bower/bin/bower install"
+=======
+    "start": "node server/config.js",
+    "test": "node bin/www& ./node_modules/.bin/mocha --bail --reporter nyan test/test.js; pkill -n node;"
+>>>>>>> 5cf6949ae0f9d0a252dd1b163841f3eb1a6a917b
   },
   "dependencies": {
     "body-parser": "~1.10.2",
